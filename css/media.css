@@ -1,0 +1,145 @@
+
+
+@media screen and (max-width: 1070px) {
+    .header-nav {
+        padding: 20px 9px;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .main-descr {
+        padding: 20px 40px;
+    }
+    .main-cars__item {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cars-item__img {
+        height: auto;
+        width: 430px;
+    }
+
+    .cars-item__descr,
+    .main-cars__item:last-child
+    .cars-item__descr {
+        top: 55px;
+        left: 7px;
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 5px;
+    }
+
+    .footer-menu {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cars-item__img {
+        width: 70%;
+    }
+
+    .footer-menu {
+        padding-left: 16px;
+    }
+
+    .footer-menu__item a {
+        padding-right: 30px;
+        font-size: 28px;
+    }
+
+    .footer-menu__item:last-child a {
+        padding-right: 5px;
+    }
+
+    .social-icons {
+        padding-right: 6px;
+    }
+
+    .social-icons img {
+        width: 48px;
+        height: 48px;
+        margin-right: 19px;
+    }
+
+    .social-icons .telegram {
+        margin-right: 0;
+    }
+    .form__inputs{
+        display: flex;
+        flex-direction: column;
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 220px;
+    }
+
+    .main-descr {
+        padding: 20px 32px 0;
+    }
+
+    .main-descr__title {
+        margin-bottom: 22px;
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .main-descr__text {
+        margin-bottom: 40px;
+        font-size: 27px;
+        line-height: 32px;
+    }
+
+    .main-cars {
+        padding: 38px 8px 51px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .cars-item__img {
+        width: 80%;
+        margin-top: 30px;
+    }
+    .main-descr__text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .footer-menu__item a {
+        padding-right: 15px;
+        font-size: 18px;
+    }
+
+    .social-icons {
+        padding-right: 4px;
+    }
+
+    .social-icons img {
+        width: 40px;
+        height: 40px;
+        margin-right: 30px;
+    }
+
+    .social-icons .telegram {
+        margin-right: 0;
+    }
+    .popup__title {
+    font-size: 30px;
+    }
+    p{
+        font-size: 25px;
+    }
+}
