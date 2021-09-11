@@ -1,0 +1,230 @@
+body{
+	overflow-y: scroll;
+}
+.header{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.content__iner{
+	max-width: 100%;
+	max-height: auto;
+	overflow-x: hidden;
+}
+
+.content__promotions{
+	color: black;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	line-height: 1.7;
+}
+h4{
+	margin-top: 10px;
+	font-size: 50px;
+	text-align: center;
+}
+
+
+img.promo__img{
+	display: block;
+	width: 927px;
+    height: 502px;
+	margin-bottom: 5px;
+	margin: 0 auto;
+	
+}
+
+
+.content__promotions_procaty{
+	width: 50em;
+	font-size: 20px;
+	margin-top: 10px;
+	padding: 0 35px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h5{
+	font-size: 37px;
+	padding-top: 5px;
+}
+
+.check{
+	width: 25px;
+	height: 25px;
+	
+}
+
+li.find{
+	padding-bottom: 15px;
+}
+
+li.give{
+	padding-bottom: 15px;
+}
+
+li.after{
+	padding-bottom: 15px;
+}
+
+li.get{
+	padding-bottom: 15px;
+}
+
+li.cum{
+	padding-bottom: 15px;
+}
+
+p.up{
+	padding-bottom: 10px;
+}
+
+ol{
+	padding-bottom: 7px;
+	font-family: 'Roboto Light';
+}
+
+
+p.down{
+	padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 1070px){
+	.content__promotions{
+	color: black;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	line-height: 1.7;
+}
+h4{
+	margin-top: 10px;
+	font-size: 50px;
+	text-align: center;
+}
+
+
+img.promo__img{
+	display: block;
+	width: 927px;
+    height: 502px;
+	margin-bottom: 5px;
+	margin: 0 auto;
+	
+}
+
+
+.content__promotions_procaty{
+	width: 50em;
+	font-size: 20px;
+	margin-top: 10px;
+	padding: 0 35px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h5{
+	font-size: 37px;
+	padding-top: 5px;
+}
+
+.check{
+	width: 25px;
+	height: 25px;
+	
+}
+
+li.find{
+	padding-bottom: 15px;
+}
+
+li.give{
+	padding-bottom: 15px;
+}
+
+li.after{
+	padding-bottom: 15px;
+}
+
+li.get{
+	padding-bottom: 15px;
+}
+
+li.cum{
+	padding-bottom: 15px;
+}
+
+p.up{
+	padding-bottom: 10px;
+}
+
+ol{
+	padding-bottom: 7px;
+	font-family: 'Roboto Light';
+}
+
+
+p.down{
+	padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+}
+
+@media screen and (max-width: 350px){
+	h4{
+	margin-top: 10px;
+	font-size: 30px;
+	text-align: center;
+}
+
+img.promo__img{
+	display: block;
+	width: 320px;
+    height: auto;
+	margin-bottom: 5px;
+	margin: 0 auto;
+	
+}
+
+.content__promotions_procaty{
+	width: 50em;
+	font-size: 20px;
+	margin-top: 10px;
+	padding: 0 35px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+ol{
+	font-size: 25px;
+	padding-bottom: 7px;
+	font-family: 'Roboto Light';
+}
+
+
+}
